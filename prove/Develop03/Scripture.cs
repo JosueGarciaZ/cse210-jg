@@ -21,7 +21,6 @@ class Scripture
 
     public void HideRandomWords(int count)
     {
-        // Only pick from the words that are not hidden yet
         List<Word> visibleWords = new List<Word>();
 
         foreach (Word word in _words)

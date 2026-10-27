@@ -1,5 +1,9 @@
 using System;
 using System.Collections.Generic;
+/* 
+1. Hiding only picks words that are not already hidden, so every press of Enter hides new words.
+2. The program has a library of scriptures and picks one at random each time.
+*/
 class Program
 {
     static void Main(string[] args)
